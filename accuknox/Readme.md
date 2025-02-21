@@ -19,7 +19,7 @@ This repository demonstrates how **Django signals** work, covering:
 ### **1️⃣ Clone the Repository**
 If you haven't already cloned the repository, run:
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/django-signals-demo.git
+git clone https://github.com/vasu2901/AccuknoxAssignment.git
 cd django-signals-demo
 ```
 
