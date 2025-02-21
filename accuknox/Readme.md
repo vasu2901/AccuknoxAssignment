@@ -1,4 +1,3 @@
-Great! Since you are using a **virtual environment**, I'll include the steps for setting it up and activating it in the **`README.md`** file.
 
 ---
 
@@ -111,54 +110,3 @@ Transaction committed
 ```
 
 ---
-
-## ❌ **Troubleshooting**
-If you encounter any issues, try the following:
-
-1. **Ensure the virtual environment is activated**:
-   ```bash
-   source venv/bin/activate  # (Mac/Linux)
-   venv\Scripts\activate     # (Windows)
-   ```
-
-2. **Ensure the database migrations are applied**:
-   ```bash
-   python manage.py migrate
-   ```
-
-3. **If signals are not working, check `apps.py`** to make sure signals are loaded:
-   ```python
-   def ready(self):
-       import testapp.signals  # Ensure signals are connected
-   ```
-
-4. **Restart the Django shell** if running inside it.
-
----
-
-## 🎯 **Pushing Updates to GitHub**
-After making changes, commit and push them:
-```bash
-git add .
-git commit -m "Updated signals test setup"
-git push origin main
-```
-
----
-
-### 🔹 **Now you have a fully working Django signals testing setup!** 🚀
-```
-
----
-
-### ✅ **Next Steps**
-- Copy the content above and save it as `README.md` in your **GitHub repository**.
-- Push it to GitHub:
-  ```bash
-  git add README.md
-  git commit -m "Added README.md with setup and testing instructions"
-  git push origin main
-  ```
-- Now, anyone (including you) can easily set up and test the Django signals.
-
-🚀 **Let me know if you need any modifications!** 😊
